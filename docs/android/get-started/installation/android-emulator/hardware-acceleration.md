@@ -46,6 +46,9 @@ accelerating the Android emulator:
 
 2. **Intel's Hardware Accelerated Execution Manager (HAXM)**.
    HAXM is a virtualization engine for computers running Intel CPUs.
+   
+> [!IMPORTANT]
+> Intel has retired the HAXM project, since today both Microsoft Hyper-V and macOS HVF have added support for Intel Virtual Machine Extensions.
 
 For the best experience on Windows, it is recommended that you use WHPX to
 accelerate the Android emulator. If WHPX is not available on your
